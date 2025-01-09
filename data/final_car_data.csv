@@ -1,0 +1,5 @@
+import pandas as pd
+
+# Laste inn datasettet
+data = pd.read_csv('data/datasett-biler.csv')
+print(data.head())  # Forhåndsvis data
